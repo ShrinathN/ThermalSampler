@@ -1,0 +1,88 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cc9139f2-b7ae-4380-8001-9450aea85694)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Features\n\n* STM32G0 MCU\n* Can be powered from Li-ion cell or coin cell (CR2302)\n* All GPIOs populated\n* Can use nRF24L01+ breakout board, LoRa RFM95W board, or 433MHz ASK module"
+    (at 33.02 49.53 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid ebde2a6c-bba4-42e9-8103-b138b003626a)
+  )
+
+  (sheet (at 175.26 99.06) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 097de7a4-1307-4535-baab-a2003ffeda34)
+    (property "Sheetname" "Sensors Section" (at 175.26 98.3484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sensors_section.kicad_sch" (at 175.26 103.4546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "thermal_sampler"
+        (path "/cc9139f2-b7ae-4380-8001-9450aea85694" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 100.33 99.06) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid af50dfe0-9715-401e-8cec-cf055a2c7047)
+    (property "Sheetname" "Radio(s) Section" (at 100.33 98.3484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "radios_section.kicad_sch" (at 100.33 103.4546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "thermal_sampler"
+        (path "/cc9139f2-b7ae-4380-8001-9450aea85694" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 43.18 99.06) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b0a959e3-dc52-4ba4-8261-1e966c3eefad)
+    (property "Sheetname" "MCU Section" (at 43.18 98.3484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu_section.kicad_sch" (at 43.18 103.4546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "thermal_sampler"
+        (path "/cc9139f2-b7ae-4380-8001-9450aea85694" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 86.36) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e5a91a16-6eeb-416c-a71c-679d26d8a6d0)
+    (property "Sheetname" "Power Supply Section" (at 25.4 85.6484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_supply.kicad_sch" (at 25.4 90.7546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "thermal_sampler"
+        (path "/cc9139f2-b7ae-4380-8001-9450aea85694" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

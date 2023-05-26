@@ -1,0 +1,24 @@
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,For 5 boards
+1,5,"C1, C2, C3, C7, C9",10uF,Device:C,Capacitor_SMD:C_0805_2012Metric,~,25
+2,3,"C4, C8, C10",220uF,Device:C,Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm,~,15
+3,2,"C5, C6",100nF,Device:C,Capacitor_SMD:C_0805_2012Metric,~,10
+4,3,"D1, D2, D3",LED,Device:LED,LED_SMD:LED_1206_3216Metric,~,15
+5,1,J1,CR2032,Connector_Generic:Conn_01x02,CR2032_THT:CR2032_THT,~,5
+6,1,J2,power_connector,Connector_Generic:Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,5
+7,1,J3,swd_header,Connector_Generic:Conn_01x04,smd_footprint:Conn_01x04,~,5
+8,1,J4,RFM95W_Antenna,Connector_Generic:Conn_01x01,smd_footprint:Conn_01x01,~,5
+9,1,J5,FS1000A,Connector_Generic:Conn_01x03,smd_footprint:Conn_01x03,~,5
+10,1,J6,ZS05,Connector_Generic:Conn_01x04,smd_footprint:Conn_01x04,~,5
+11,1,J7,thermistor_connector,Connector_Generic:Conn_01x02,smd_footprint:Conn_01x02,~,5
+12,2,"Q1, Q2",CJ3401,Device:Q_PMOS_GSD,Package_TO_SOT_SMD:SOT-23,~,10
+13,3,"R1, R6, R11",1Meg,Device:R,Resistor_SMD:R_0805_2012Metric,~,15
+14,3,"R2, R3, R4",1k,Device:R,Resistor_SMD:R_0805_2012Metric,~,15
+15,2,"R5, R10",22R,Device:R,Resistor_SMD:R_0805_2012Metric,~,10
+16,2,"R7, R12",2R,Device:R,Resistor_SMD:R_1206_3216Metric,~,10
+17,2,"R8, R9",4k7,Device:R,Resistor_SMD:R_0805_2012Metric,~,10
+18,1,R13,100k,Device:R,Resistor_SMD:R_0805_2012Metric,~,5
+19,1,SW1,rst_switch,Switch:SW_Push,Button_Switch_SMD:SW_SPST_TL3342,~,5
+20,1,U1,HT7333,HT7333:HT7333,Package_TO_SOT_SMD:SOT-89-3,https://datasheet.lcsc.com/szlcsc/Holtek-Semicon-HT7333-A_C21583.pdf,5
+21,1,U2,STM32G030C8T6,STM32G030C8T6:STM32G030C8T6,Package_QFP:LQFP-48_7x7mm_P0.5mm,,5
+22,1,U3,nRF24L01_SMD,nrf24l01_smd:nRF24L01_SMD,nRF24L01_SMD:nRF24L01_SMD,,5
+23,1,U4,RFM95W-868S2,RF_Module:RFM95W-868S2,RF_Module:HOPERF_RFM9XW_SMD,https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf,5

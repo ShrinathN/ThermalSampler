@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "smd_footprint")(type "KiCad")(uri "${KIPRJMOD}/Custom Parts/Footprint/smd_footprint.pretty")(options "")(descr ""))
+  (lib (name "nRF24L01_SMD")(type "KiCad")(uri "${KIPRJMOD}/Custom Parts/Footprint/nRF24L01_SMD.pretty")(options "")(descr ""))
+  (lib (name "CR2032_THT")(type "KiCad")(uri "${KIPRJMOD}/Custom Parts/Footprint/CR2032_THT.pretty")(options "")(descr ""))
+  (lib (name "AHT20")(type "KiCad")(uri "${KIPRJMOD}/Custom Parts/Footprint/AHT20.pretty")(options "")(descr ""))
+)

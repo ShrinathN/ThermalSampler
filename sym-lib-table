@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name "STM32G030C8T6")(type "KiCad")(uri "${KIPRJMOD}/Custom Parts/Symbols/STM32G030C8T6.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32G030F6P6TR")(type "KiCad")(uri "${KIPRJMOD}/Custom Parts/Symbols/STM32G030F6P6TR.kicad_sym")(options "")(descr ""))
+  (lib (name "analog_stick")(type "KiCad")(uri "${KIPRJMOD}/Custom Parts/Symbols/analog_stick.kicad_sym")(options "")(descr ""))
+  (lib (name "esp32")(type "KiCad")(uri "${KIPRJMOD}/Custom Parts/Symbols/esp32.kicad_sym")(options "")(descr ""))
+  (lib (name "mp1584_buck_converter_board_sym")(type "KiCad")(uri "${KIPRJMOD}/Custom Parts/Symbols/mp1584_buck_converter_board_sym.kicad_sym")(options "")(descr ""))
+  (lib (name "tp4056_module")(type "KiCad")(uri "${KIPRJMOD}/Custom Parts/Symbols/tp4056_module.kicad_sym")(options "")(descr ""))
+  (lib (name "HT7333")(type "KiCad")(uri "${KIPRJMOD}/Custom Parts/Symbols/HT7333.kicad_sym")(options "")(descr ""))
+  (lib (name "nrf24l01_smd")(type "KiCad")(uri "${KIPRJMOD}/Custom Parts/Symbols/nrf24l01_smd.kicad_sym")(options "")(descr ""))
+)

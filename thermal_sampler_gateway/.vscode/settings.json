@@ -1,0 +1,41 @@
+{
+	"C_Cpp.default.includePath": [
+		"/home/shinu/SDKs/esp-idf/components/**",
+		"/home/shinu/SDKs/esp-idf/components/freertos/includes/**",
+		"main"
+	],
+	"files.associations": {
+		"gpio.h": "c",
+		"periph_ctrl.h": "c",
+		"stdint.h": "c",
+		"esp_err.h": "c",
+		"spi_periph.h": "c",
+		"main.h": "c",
+		"freertos.h": "c",
+		"semphr.h": "c",
+		"string.h": "c",
+		"nrf_driver.h": "c",
+		"stdlib.h": "c",
+		"esp_log.h": "c",
+		"nvs_flash.h": "c",
+		"esp_system.h": "c",
+		"*.ipp": "c",
+		"*.inc": "c",
+		"*.contiki": "c",
+		"*.tcc": "c",
+		"chrono": "c",
+		"ctime": "c",
+		"future": "c",
+		"iomanip": "c",
+		"limits": "c",
+		"numeric": "c",
+		"ranges": "c",
+		"ratio": "c",
+		"streambuf": "c",
+		"tuple": "c",
+		"type_traits": "c",
+		"utility": "c",
+		"algorithm": "c"
+	},
+	"C_Cpp.clang_format_style": "Visual Studio"
+}

@@ -1,0 +1,12 @@
+{
+	"files.associations": {
+		"stm32g0xx_hal.h": "c",
+		"stm32g0xx_hal_conf.h": "c",
+		"main.h": "c",
+		"stm32g0xx_hal_pwr.h": "c",
+		"stm32g0xx_hal_exti.h": "c",
+		"nrf_driver.h": "c",
+		"zs05.h": "c",
+		"stdint.h": "c"
+	}
+}
